@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hash Chat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="chat.jpg" alt="chat-icon-img">
+        <H1>THE HASH APP</H1>
+    </nav>
+    <div class="container">
+        <div class="message right"> ME : Message 1</div>
+        <div class="message left">FRIEND :Message 2</div>
+    </div>
+    <div class="send">
+        <form action="" id="send-container" autocomplete="off">
+            <input placeholder="Type your Message here.." type="text" name="messageInp" id="messageInp" type="submit"> <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
